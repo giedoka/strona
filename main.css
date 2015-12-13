@@ -1,0 +1,82 @@
+html {
+	font-size: 62.5%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+
+	font-family: 'Advent Pro', sans-serif;
+	color: #37474f;
+	font-size: 1.6rem;
+}
+
+.page-header {
+	margin-top: -10px;
+	position: absolute;
+	text-align: center;
+}
+
+.page-nav .navigation-menu {
+	display: block;
+}
+
+.page-nav .navigation-menu li {
+	margin-bottom: 10px;
+}
+
+.page-nav .navigation-menu a{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.page-nav .hamburger {
+	border: 0;
+	background: 0;
+	float: right;
+	padding-top: 5px;
+}
+
+.page-nav .hamburger img {
+	width: 40px;
+}
+
+.page-nav .navigation-menu {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	text-align: center;
+	margin-top: 10px;
+	position: absolute;
+}
+
+.article .article-header {
+	background: url(img/mixer.jpg) no-repeat;
+	background-size: cover;
+	background-position: 60%;
+	text-align: center;
+}
+
+.article .article-title,
+.article p {
+	color: #ffffff;
+}
+
+.article .article-title {
+	margin-top: -6px;
+	padding-top: 150px;
+	font-size: 6rem;
+}
+
+.article p {
+	font-size: 3rem;
+}
+
+.bity ul {
+	list-style-type: none;
+}
+
+.article div img {
+	border-radius: 100%;
+}
