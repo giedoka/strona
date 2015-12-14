@@ -81,6 +81,34 @@ body {
 	padding: 0;
 }
 
+.bity ul li {
+	color: #ffffff;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-position-top: 50px;
+	
+}
+
+.bity ul li:first-child {
+	background: url(img/black-night.jpg) no-repeat;
+}
+
+.bity ul li:nth-child(2) {
+	background: url(img/throwback.jpg) no-repeat;
+}
+
+.bity ul li:nth-child(3) {
+	background: url(img/still-breaking.jpg) no-repeat;
+}
+
+.bity ul li:nth-child(4) {
+	background: url(img/the-mysterious.jpg) no-repeat;
+}
+
+.bity ul li:nth-child(5) {
+	background: url(img/monster.jpg) no-repeat;
+}
+
 .article div img {
 	border-radius: 100%;
 	width: 90px;
