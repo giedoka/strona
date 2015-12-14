@@ -46,8 +46,10 @@ body {
 	margin: 0;
 	width: 100%;
 	text-align: center;
-	margin-top: 10px;
+	margin-top: -5px;
+	padding-top: 10px;
 	position: absolute;
+	background: rgba(0, 0, 0, 0.7);
 }
 
 .article .article-header {
@@ -76,6 +78,7 @@ body {
 
 .bity ul {
 	list-style-type: none;
+	padding: 0;
 }
 
 .article div img {
