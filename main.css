@@ -33,9 +33,10 @@ body {
 .page-nav .hamburger {
 	border: 0;
 	background: 0;
-	float: right;
+	right: 0;
 	padding-top: 5px;
-	position: relative;
+	position: fixed;
+	z-index: 2;
 }
 
 .page-nav .hamburger img {
@@ -50,8 +51,9 @@ body {
 	text-align: center;
 	margin-top: -5px;
 	padding-top: 10px;
-	position: absolute;
+	position: fixed;
 	background: rgba(0, 0, 0, 0.7);
+	z-index: 2;
 }
 
 .article .article-header {
@@ -90,6 +92,7 @@ body {
 	margin-top: 10px;
 	margin-bottom: 10px;
 	opacity: 0.9;
+	z-index: 1;
 }
 
 .bity ul li a{
