@@ -95,30 +95,35 @@ body {
 .bity ul li:first-child {
 	background: url(img/black-night.jpg) no-repeat;
 	background-attachment: fixed;
+	background-position: fixed;
 	background-size: cover;
 }
 
 .bity ul li:nth-child(2) {
 	background: url(img/throwback.jpg) no-repeat;
 	background-attachment: fixed;
+	background-position: fixed;
 	background-size: cover;
 }
 
 .bity ul li:nth-child(3) {
 	background: url(img/still-breaking.jpg) no-repeat;
 	background-attachment: fixed;
+	background-position: fixed;
 	background-size: cover;
 }
 
 .bity ul li:nth-child(4) {
 	background: url(img/the-mysterious.jpg) no-repeat;
 	background-attachment: fixed;
+	background-position: fixed;
 	background-size: cover;
 }
 
 .bity ul li:nth-child(5) {
 	background: url(img/monster.jpg) no-repeat;
 	background-attachment: fixed;
+	background-position: fixed;
 	background-size: cover;
 	background-position: 10%;
 }
