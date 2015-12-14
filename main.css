@@ -12,8 +12,7 @@ body {
 }
 
 .page-header {
-	margin-top: -10px;
-	position: absolute;
+	margin-top: -15px;
 	text-align: center;
 }
 
@@ -67,10 +66,12 @@ body {
 	margin-top: -6px;
 	padding-top: 150px;
 	font-size: 6rem;
+	margin-bottom: 0;
 }
 
 .article p {
 	font-size: 3rem;
+	margin-top: 0;
 }
 
 .bity ul {
@@ -79,4 +80,6 @@ body {
 
 .article div img {
 	border-radius: 100%;
+	width: 90px;
+	margin-bottom: 20px;
 }
