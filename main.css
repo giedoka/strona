@@ -148,7 +148,11 @@ body {
 
 @media (min-width: 360px) {
 	.bity ul li {
-		padding-top: 100px;
-		padding-bottom: 100px;
+		padding-top: 125px;
+		padding-bottom: 125px;
+	}
+
+	.bity ul li a {
+		font-size: 3rem;
 	}
 }
