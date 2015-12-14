@@ -9,6 +9,7 @@ body {
 	font-family: 'Advent Pro', sans-serif;
 	color: #37474f;
 	font-size: 1.6rem;
+	background: #d0d0d0;
 }
 
 .page-header {
@@ -57,6 +58,7 @@ body {
 	background-size: cover;
 	background-position: 60%;
 	text-align: center;
+	background-attachment: fixed;
 }
 
 .article .article-title,
@@ -85,28 +87,40 @@ body {
 	color: #ffffff;
 	padding-top: 50px;
 	padding-bottom: 50px;
-	background-position-top: 50px;
-	
+	margin-top: 10px;
+	margin-bottom: 10px;
+	opacity: 0.9;
 }
 
 .bity ul li:first-child {
 	background: url(img/black-night.jpg) no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
 }
 
 .bity ul li:nth-child(2) {
 	background: url(img/throwback.jpg) no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
 }
 
 .bity ul li:nth-child(3) {
 	background: url(img/still-breaking.jpg) no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
 }
 
 .bity ul li:nth-child(4) {
 	background: url(img/the-mysterious.jpg) no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
 }
 
 .bity ul li:nth-child(5) {
 	background: url(img/monster.jpg) no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: 10%;
 }
 
 .article div img {
