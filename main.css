@@ -54,7 +54,7 @@ body {
 }
 
 .article .article-header {
-	background: url(img/mixer.jpg) no-repeat;
+	background: url(img/tlo.jpg) no-repeat;
 	background-size: cover;
 	background-position: 60%;
 	text-align: center;
@@ -67,7 +67,7 @@ body {
 
 .article .article-title {
 	margin-top: -6px;
-	padding-top: 150px;
+	padding-top: 170px;
 	font-size: 6rem;
 	margin-bottom: 0;
 }
@@ -125,5 +125,6 @@ body {
 .article div img {
 	border-radius: 100%;
 	width: 90px;
-	margin-bottom: 20px;
+	margin-top: 50px;
+	margin-bottom: 30px;
 }
