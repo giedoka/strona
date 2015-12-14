@@ -92,6 +92,13 @@ body {
 	opacity: 0.9;
 }
 
+.bity ul li a{
+	font-size: 2rem;
+	color: #ffffff;
+	text-decoration: none;
+	padding: 50px 100px 50px 100px;
+}
+
 .bity ul li:first-child {
 	background: url(img/black-night.jpg) no-repeat;
 	
