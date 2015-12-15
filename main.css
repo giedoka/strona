@@ -18,6 +18,10 @@ body {
 }
 
 .page-nav .navigation-menu {
+	display: none;
+}
+
+.page-header.nav-opened .page-nav .navigation-menu {
 	display: block;
 }
 
