@@ -150,7 +150,8 @@ body {
 .article .studio-description {
 	text-align: justify;
 	padding: 10px;
-	font-size: 2rem;
+	font-size: 1.8rem;
+	font-family: 'Arimo', sans-serif;
 }
 
 @media (min-width: 360px) {
