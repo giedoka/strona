@@ -91,8 +91,8 @@ body {
 
 .bity ul li {
 	color: #ffffff;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 60px;
+	padding-bottom: 60px;
 	margin-top: 10px;
 	margin-bottom: 10px;
 	opacity: 0.9;
@@ -154,7 +154,7 @@ body {
 	font-family: 'Arimo', sans-serif;
 }
 
-@media (min-width: 360px) {
+@media (min-width: 373px) {
 	.bity ul li {
 		padding-top: 125px;
 		padding-bottom: 125px;
@@ -162,5 +162,34 @@ body {
 
 	.bity ul li a {
 		font-size: 3rem;
+	}
+}
+
+@media (min-width: 40em) {
+	.page-nav .hamburger {
+		display: none;
+	}
+
+	.page-nav .navigation-menu {
+		display: inline;
+		border-bottom: 3px solid #FC5;
+		left: 0;
+		padding-bottom: 10px;
+	}
+
+	.page-nav .navigation-menu li {
+		display: inline;
+		border-right: 2px solid #FC5;
+		padding: 10px 50px 10px 50px;
+		border-left: 2px solid #FC5;
+	}
+
+	.page-nav .navigation-menu li:hover {
+		background: rgba(255, 255, 255, 0.7);
+	}
+
+	.page-nav .navigation-menu li a {
+		
+		width: 100%;
 	}
 }
